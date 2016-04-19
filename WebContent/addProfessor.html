@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Add Professor</title>
+</head>
+<body>
+	<h3 align="center">Enter professor's information: </h3>
+	<form method="post" action="addProfessorServ">
+		<input type="hidden" name="requestType" value="insert" />
+		<table align="center">
+			<tr>
+				<td>Username:</td>
+				<td><input type="text" name="username" /></td>
+				<br />
+			</tr>
+			<tr>
+				<td>Name:</td>
+				<td><input type="text" name="name" /></td>
+				<br />
+			</tr>
+			<tr>
+				<td>Surname:</td>
+				<td><input type="text" name="surname" /></td>
+				<br />
+			</tr>
+			<tr>
+				<td>Department:</td>
+				<td><input type="text" name="department" /></td>
+				<br />
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type="submit" value="Enter" /></td>
+				<br />
+			</tr>
+
+		</table>
+	</form>
+
+</body>
+</html>
